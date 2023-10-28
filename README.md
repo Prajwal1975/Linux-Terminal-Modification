@@ -24,13 +24,27 @@ Step 5: After Insatalltion of nanofetch now we need to modify the shell file.
 In modern distro the default is ZSH, if you want to know what shell does your distro has just type the below command
         
         echo $SHELL
-Step 6: Now let's modify the shell file 
+
+
+
+Step 6: Open the Shell file 
+
+    nano  ~/.zshsrc
+    
+    
+    nano  ~/.bashrc
+  (According to your Terminal Shell)
+  
+Step 7: Now let's modify the shell file 
   Scroll to the bottom of the file 
-    "Make sure you don't mess up anything else in the file, it's always adviced to make a copy of original file before making any changes to the original file."
+   
+   
+   ( "Make sure you don't mess up anything else in the file, it's always adviced to make a copy of original file before making any changes to the original file.")
+    
+ And Now type
 
- Step 7:  Now type
-
-     nanofetch  
+     nanofetch
+     
 Step 8: If you further want to make changes like adding custom text you can add
 
     echo
@@ -40,6 +54,7 @@ Follwed by
   Which will be displayed on the top.
 
 (You can further add "uptime" at the end which will display system uptime )
+
 
 "AND HERE WE HAVE A MODIFIED TERMINAL"
 Happy Hacking
