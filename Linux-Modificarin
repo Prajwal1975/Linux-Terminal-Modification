@@ -1,0 +1,8 @@
+sudo apt-get install git
+git clone https://github.com/Anmol-Singh-Jaggi/nanofetch.git
+echo $SHELL
+nano  ~/.zshsrc
+nano  ~/.bashrc
+nanofetch
+echo
+echo "Anything You want to add goes here"
